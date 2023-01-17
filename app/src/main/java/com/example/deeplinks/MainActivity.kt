@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
 
             val values = uri!!.pathSegments
 
-            val param = values[0]
+            val param0 = values[0]
             val param1 = values[1]
 
-            message1.text = param
+            message1.text = param0
             message.text = param1
         }
     }
